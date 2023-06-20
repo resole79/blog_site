@@ -1,0 +1,23 @@
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{url_for('static', filename='img/error-bg.jpg')}}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>Error 403</h1>
+            <h3>Forbidden</h3>
+            <span class="subheading">You don’t have permission to access this resource’ is displayed when a web server recognizes a user’s request but is unable to allow additional access.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+{% include "footer.html" %}
+{% endblock %}
