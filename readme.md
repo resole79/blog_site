@@ -52,7 +52,7 @@ pip install python-dotenv
 python3 main.py
 ```     
 
-4. **Run** the Blog Site on browse: 
+4. **Run** the Blog Site on browser: 
 
 ```
 http://127.0.0.1:8080/
