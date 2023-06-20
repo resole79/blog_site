@@ -1,5 +1,5 @@
 .*
-/.cfg
+*.cfg
 __pycache__/*
 bin/*
 include/*
